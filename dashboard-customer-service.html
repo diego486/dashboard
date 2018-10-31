@@ -1,0 +1,674 @@
+﻿<!doctype html>
+<html class="no-js " lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+
+<title>Manager Lavemcasa</title>
+<!-- Favicon-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<!-- Custom Css -->
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/color_skins.css">
+<link rel="stylesheet" href="assets/css/lavemcasa.css">
+
+
+
+</head>
+<body class="theme-purple">
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <div class="m-t-30"><img class="zmdi-hc-spin logo-top" src="#" alt=""></div>       
+    </div>
+</div>
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div>
+
+<!-- Top Bar -->
+<nav class="top_navbar">
+    <div class="container">
+
+
+        <div class="row clearfix">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="navbar-logo">
+                    <a href="javascript:void(0);" class="bars"></a>
+                    <a class="navbar-brand logo-menu" href="index.html"><img src="assets/images/preload-logo.jpg" alt="Lavemcasa"><span class="m-l-10"></span></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="search_bar hidden-xs">
+                        <div class="input-group">                
+                            <input type="text" class="form-control" placeholder="Pesquisar (Cliente, Pedido, Produto...)">
+                        </div>
+                    </li>
+                    <li class="dropdown notifications">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-bell"></i><span class="label-count">5</span></a>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="header">Notificações</li>
+                            <li class="body">
+                                <ul class="menu list-unstyled">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="/assets/images/xs/avatar5.jpg" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Alexander <span class="time">13min ago</span></span>
+                                                    <span class="message">Meeting with Shawn at Stark Tower by 8 o'clock.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="/assets/images/xs/avatar6.jpg" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Grayson <span class="time">22min ago</span></span>
+                                                    <span class="message">You have 5 unread emails in your inbox.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="/assets/images/xs/avatar3.jpg" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Sophia <span class="time">31min ago</span></span>
+                                                    <span class="message">OrderPlaced: You received a new oder from Tina.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>                
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="/assets/images/xs/avatar4.jpg" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Isabella <span class="time">35min ago</span></span>
+                                                    <span class="message">Lara added a comment in Blazing Saddles.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="/assets/images/xs/avatar8.jpg" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Sophia <span class="time">48min ago</span></span>
+                                                    <span class="message">OrderPlaced: You received a new oder from Tina.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer"> <a href="javascript:void(0);">View All</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="fullscreen hidden-sm" data-provide="fullscreen"><i class=" icon-size-fullscreen"></i></a></li>
+                    <li class="dropdown profile">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <img class="rounded-circle" src="assets/images/profile_av.jpg" alt="User">
+                        </a>
+                        <ul class="dropdown-menu pullDown">
+                            <li>
+                                <div class="user-info">
+                                    <h6 class="user-name m-b-0">Alizee Thomas</h6>
+                                    <p class="user-position">Available</p>
+                                    <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                                    <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                                    <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                                    <a title="linkedin" href="javascript:void(0);"><i class="zmdi zmdi-linkedin-box"></i></a>
+                                    <a title="dribbble" href="javascript:void(0);"><i class="zmdi zmdi-dribbble"></i></a>
+                                    <a title="google plus" href="javascript:void(0);"><i class="zmdi zmdi-google-plus-box"></i></a>
+                                    <hr>
+                                </div>
+                            </li>                            
+                            <li><a href="profile.html"><i class="icon-user m-r-10"></i> <span>My Profile</span> <span class="badge badge-success float-right">80%</span></a></li>
+                            <li><a href="javascript:void(0);"><i class="icon-notebook m-r-10"></i><span>Taskboard</span> <span class="badge badge-info float-right">New</span></a></li>                            
+                            <li><a href="locked.html"><i class="icon-lock m-r-10"></i><span>Locked</span></a></li>
+                            <li><a href="sign-in.html"><i class="icon-power m-r-10"></i><span>Sign Out</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-1"></div>
+        </div>        
+    </div>
+</nav>
+
+<aside id="leftsidebar" class="sidebar h_menu">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="menu">
+                    <ul class="list">
+                        <li class="header">MAIN</li>
+                        <li class="active open"> <a href="dashboard.html" class="menu-toggle"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-shopping-cart"></i><span>Pedidos</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="order-register.html">Novo Pedido</a></li>
+                                <li><a href="order-list.html">Listagem</a></li>
+                                <li><a href="#">Assinaturas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-face"></i><span>Clientes</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="client-register.html">Novo Cliente</a></li>
+                                <li><a href="client-list.html">Listagem</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">widgets</i><span>Produtos</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="product-register.html">Novo Produto</a></li>
+                                <li><a href="product-list.html">Listagem</a></li>
+                                <li><a href="#">Pacotes</a></li>
+                                <li><a href="#">Plano/Assinatura</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">store_mall_directory</i><span>Comerciante</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="merchant-register.html">Novo Comerciante</a></li>
+                                <li><a href="merchant-list.html">Listagem</a></li>
+                                <li><a href="#">Mapa de atendimento</a></li>
+                                <li><a href="#">Agentes de logística</a></li>
+                            </ul>
+                        </li>           
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">attach_money</i><span>Financeiro</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="order-status.html">Status de Pedidos</a></li>
+                                <li><a href="#">Acertos de Lavanderias</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">settings</i><span>Configurações</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="#">Gateway de pagamento</a></li>
+                                <li><a href="#">Idioma e strings</a></li>
+                                <li><a href="#">Estilo de aplicações</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">trending_up</i><span>Relatórios</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="new-client-report.html">Novos Clientes</a></li>
+                                <li><a href="#">Assinaturas</a></li>
+                            </ul>
+                        </li>           
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</aside>
+<!-- Right Sidebar -->
+<aside id="rightsidebar" class="right-sidebar">
+    <div class="slim_scroll">
+        <div class="card">
+            <h6>Skins</h6>
+            <ul class="choose-skin list-unstyled">
+                <li data-theme="purple" class="active">
+                    <div class="purple"></div>
+                </li>                   
+                <li data-theme="blue">
+                    <div class="blue"></div>
+                </li>
+                <li data-theme="cyan">
+                    <div class="cyan"></div>
+                </li>
+                <li data-theme="green">
+                    <div class="green"></div>
+                </li>
+                <li data-theme="orange">
+                    <div class="orange"></div>
+                </li>
+                <li data-theme="blush">
+                    <div class="blush"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="card theme-light-dark">
+            <h6>Left Menu</h6>
+            <button class="btn btn-default btn-block btn-round btn-simple t-light">Light</button>
+            <button class="btn btn-default btn-block btn-round t-dark">Dark</button>
+        </div> 
+        <div class="card">
+            <h6>General Settings</h6>
+            <ul class="setting-list list-unstyled">
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">Report Panel Usage</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox2" type="checkbox" checked="">
+                        <label for="checkbox2">Email Redirect</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox3" type="checkbox" checked="">
+                        <label for="checkbox3">Notifications</label>
+                    </div>                        
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox4" type="checkbox" checked="">
+                        <label for="checkbox4">Auto Updates</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox5" type="checkbox" checked="">
+                        <label for="checkbox5">Offline</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">Location Permission</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>
+<!-- Right Sidebar -->
+<aside id="rightsidebar" class="right-sidebar">
+    <div class="slim_scroll">
+        <div class="card">
+            <h6>Skins</h6>
+            <ul class="choose-skin list-unstyled">
+                <li data-theme="purple" class="active">
+                    <div class="purple"></div>
+                </li>                   
+                <li data-theme="blue">
+                    <div class="blue"></div>
+                </li>
+                <li data-theme="cyan">
+                    <div class="cyan"></div>
+                </li>
+                <li data-theme="green">
+                    <div class="green"></div>
+                </li>
+                <li data-theme="orange">
+                    <div class="orange"></div>
+                </li>
+                <li data-theme="blush">
+                    <div class="blush"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="card theme-light-dark">
+            <h6>Left Menu</h6>
+            <button class="btn btn-default btn-block btn-round btn-simple t-light">Light</button>
+            <button class="btn btn-default btn-block btn-round t-dark">Dark</button>
+        </div> 
+        <div class="card">
+            <h6>General Settings</h6>
+            <ul class="setting-list list-unstyled">
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">Report Panel Usage</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox2" type="checkbox" checked="">
+                        <label for="checkbox2">Email Redirect</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox3" type="checkbox" checked="">
+                        <label for="checkbox3">Notifications</label>
+                    </div>                        
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox4" type="checkbox" checked="">
+                        <label for="checkbox4">Auto Updates</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox5" type="checkbox" checked="">
+                        <label for="checkbox5">Offline</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox6" type="checkbox" checked="">
+                        <label for="checkbox6">Location Permission</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>
+
+
+<!-- Main Content -->
+<section class="content">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-1"></div>
+                <div class="col-lg-10">
+                <div class="card">
+                    <div class="body block-header">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-8 col-sm-12">
+                                <h2>Atendimento</h2>
+                                <ul class="breadcrumb p-l-0 p-b-0 ">
+                                    <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>
+                                    <li class="breadcrumb-item active">Dashboard</li>
+                                </ul>
+                            </div>
+                             <div class="col-lg-6 product-price-text-format">
+                            <div class="form-group dashboard-options">
+                                <select id="hidden" class="form-control" name="category">
+                                    <option selected="selected" value>Selecione o Filtro</option>
+                                    <option value="1">ID</option>
+                                    <option value="1">Cupom</option>
+                                    <option value="1">Quantidade</option>
+                                </select>
+                            </div>
+                        </div>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-1 col-md-1 col-sm-1 "></div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <div class="card">
+                        <div class="col-lg-12 product-price-text-format">
+                            <fieldset class="fieldset-father product-price-fieldset">
+                                <legend>Resumo dos Pedidos do Dia</legend>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <!--<div class="icon">
+                                                    <span class="chart chart-bar">9,4,6,5,6,4,7,5</span>
+                                                 </div>-->
+                                                <div class="content">
+                                                    <div class="text">Pedidos do dia</div>                            
+                                                        <div class="number">
+                                                            <span class="number count-to" data-from="0" data-to="30" data-speed="2000" data-fresh-interval="700">30</span>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Novos Clientes</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedido Avulso</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedido Assinatura</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="5" data-speed="2000" data-fresh-interval="700">5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Novas Assinaturas</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="5" data-speed="2000" data-fresh-interval="700">5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedidos Cancelados</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="3" data-speed="2000" data-fresh-interval="700">3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12 product-price-text-format">
+                            <fieldset class="fieldset-father product-price-fieldset">
+                                <legend>Resumo dos Pedidos do Dia Anterior</legend>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <!--<div class="icon">
+                                                    <span class="chart chart-bar">9,4,6,5,6,4,7,5</span>
+                                                 </div>-->
+                                                <div class="content">
+                                                    <div class="text">Pedidos do dia</div>                            
+                                                        <div class="number">
+                                                            <span class="number count-to" data-from="0" data-to="30" data-speed="2000" data-fresh-interval="700">30</span>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Novos Clientes</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedido Avulso</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedido Assinatura</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="5" data-speed="2000" data-fresh-interval="700">5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Novas Assinaturas</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="5" data-speed="2000" data-fresh-interval="700">5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedidos Cancelados</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="3" data-speed="2000" data-fresh-interval="700">3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-12 product-price-text-format">
+                            <fieldset class="fieldset-father product-price-fieldset">
+                                <legend>Resumo dos Pedidos de Amanhã</legend>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <!--<div class="icon">
+                                                    <span class="chart chart-bar">9,4,6,5,6,4,7,5</span>
+                                                 </div>-->
+                                                <div class="content">
+                                                    <div class="text">Pedidos a Retirar</div>                            
+                                                        <div class="number">
+                                                            <span class="number count-to" data-from="0" data-to="30" data-speed="2000" data-fresh-interval="700">30</span>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedidos a Entregar</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="card info-box-2">
+                                            <div class="body">
+                                                <div class="content">
+                                                    <div class="text">Pedidos Cancelados</div>                            
+                                                    <div class="number">
+                                                        <span class="number count-to" data-from="0" data-to="10" data-speed="2000" data-fresh-interval="700">10</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="container-row" style="padding: 15px">
+                            <div class="row">
+                                <div class="col-sm-8 product-price-text-format">
+                                    <fieldset class="fieldset-father product-price-fieldset">
+                                        <legend>Resumo Semanal</legend>
+                                        <div id="atendimento-chart-1"></div>       
+                                    </fieldset>
+                                </div>
+                                <div class="col-sm-4 product-price-text-format ">
+                                    <fieldset class="fieldset-father product-price-fieldset dashboard-atendimento-box">
+                                        <legend>Pedidos do dia</legend>
+                                        <div id="atendimento-chart-2"></div>     
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 product-price-text-format">
+                            <fieldset class="fieldset-father product-price-fieldset">
+                                <legend>Próximos Dias</legend>
+                                <div class="row clearfix">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="header">
+                                            <ul class="header-dropdown">
+                                                <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
+                                                    <ul class="dropdown-menu slideUp">
+                                                        <li><a href="javascript:void(0);" data-toggle="modal" data-target="#">Pedidos Agendados</a></li>
+                                                        <li><a href="javascript:void(0);">Another action</a></li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            </div>
+                                        <div class="body">
+                                        <div id="atendimento-chart-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        </div>
+                    </div><!--card-->
+                </div><!--col-lg-10-->
+            <div class="col-1"></div>
+        </div><!--rowclearfix-->
+    </div><!--container-->    
+</section>      
+                                                
+                                        
+                                                        
+<!-- Jquery Core Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script> 
+<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js ( jquery.v3.2.1, Bootstrap4 js) --> 
+<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- slimscroll, waves Scripts Plugin Js -->
+<script src="assets/bundles/morrisscripts.bundle.js"></script><!-- Morris Plugin Js -->
+<script src="assets/bundles/knob.bundle.js"></script> <!-- Jquery Knob-->
+<script src="assets/bundles/mainscripts.bundle.js"></script>
+<script src="assets/js/pages/dashboard-customer-service.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script> 
+</body>
+</html>

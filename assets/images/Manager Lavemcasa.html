@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html class="no-js firefox" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+
+<title>Manager Lavemcasa</title>
+<!-- Favicon-->
+<link rel="icon" href="http://localhost/www/Lavemcasa/novo-manager-template/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="Manager%20Lavemcasa_arquivos/bootstrap.css">
+<!-- Custom Css -->
+<link rel="stylesheet" href="Manager%20Lavemcasa_arquivos/main.css">
+<link rel="stylesheet" href="Manager%20Lavemcasa_arquivos/color_skins.css">
+<link rel="stylesheet" href="Manager%20Lavemcasa_arquivos/lavemcasa.css">
+
+<script type="text/javascript" src="Manager%20Lavemcasa_arquivos/jquery.js"></script>
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="theme-purple" style="overflow: auto;">
+<!-- Page Loader -->
+<div class="page-loader-wrapper" style="display: none;">
+    <div class="loader">
+        <div class="m-t-30"><img class="zmdi-hc-spin logo-top" src="Manager%20Lavemcasa_arquivos/logo_circulo.png" alt="sQuare"></div>
+        <p>Carregando...</p>        
+    </div>
+</div>
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div>
+
+<!-- Top Bar -->
+<nav class="top_navbar">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="navbar-logo">
+                    <a href="javascript:void(0);" class="bars"></a>
+                    <a class="navbar-brand logo-menu" href="http://localhost/www/Lavemcasa/novo-manager-template/index.html"><img src="Manager%20Lavemcasa_arquivos/preload-logo.jpg" alt="Lavemcasa"><span class="m-l-10"></span></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="search_bar hidden-xs">
+                        <div class="input-group">                
+                            <input class="form-control" placeholder="Pesquisar (Cliente, Pedido, Produto...)" type="text">
+                        </div>
+                    </li>
+                    <li class="dropdown notifications">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-bell"></i><span class="label-count">5</span></a>
+                        <ul class="dropdown-menu pullDown">
+                            <li class="header">Notificações</li>
+                            <li class="body">
+                                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 250px;"><ul class="menu list-unstyled" style="overflow: hidden; width: auto; height: 250px;">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="Manager%20Lavemcasa_arquivos/avatar5.html" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Alexander <span class="time">13min ago</span></span>
+                                                    <span class="message">Meeting with Shawn at Stark Tower by 8 o'clock.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="Manager%20Lavemcasa_arquivos/avatar6.html" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Grayson <span class="time">22min ago</span></span>
+                                                    <span class="message">You have 5 unread emails in your inbox.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="Manager%20Lavemcasa_arquivos/avatar3.html" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Sophia <span class="time">31min ago</span></span>
+                                                    <span class="message">OrderPlaced: You received a new oder from Tina.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>                
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="Manager%20Lavemcasa_arquivos/avatar4.html" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Isabella <span class="time">35min ago</span></span>
+                                                    <span class="message">Lara added a comment in Blazing Saddles.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="media">
+                                                <img class="media-object" src="Manager%20Lavemcasa_arquivos/avatar8.html" alt="">
+                                                <div class="media-body">
+                                                    <span class="name">Sophia <span class="time">48min ago</span></span>
+                                                    <span class="message">OrderPlaced: You received a new oder from Tina.</span>                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; width: 3px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 3px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 3px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+                            </li>
+                            <li class="footer"> <a href="javascript:void(0);">View All</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" class="fullscreen hidden-sm" data-provide="fullscreen"><i class=" icon-size-fullscreen"></i></a></li>
+                    <li class="dropdown profile">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <img class="rounded-circle" src="Manager%20Lavemcasa_arquivos/profile_av.jpg" alt="User">
+                        </a>
+                        <ul class="dropdown-menu pullDown">
+                            <li>
+                                <div class="user-info">
+                                    <h6 class="user-name m-b-0">Alizee Thomas</h6>
+                                    <p class="user-position">Available</p>
+                                    <a title="facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
+                                    <a title="twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
+                                    <a title="instagram" href="javascript:void(0);"><i class="zmdi zmdi-instagram"></i></a>
+                                    <a title="linkedin" href="javascript:void(0);"><i class="zmdi zmdi-linkedin-box"></i></a>
+                                    <a title="dribbble" href="javascript:void(0);"><i class="zmdi zmdi-dribbble"></i></a>
+                                    <a title="google plus" href="javascript:void(0);"><i class="zmdi zmdi-google-plus-box"></i></a>
+                                    <hr>
+                                </div>
+                            </li>                            
+                            <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/profile.html"><i class="icon-user m-r-10"></i> <span>My Profile</span> <span class="badge badge-success float-right">80%</span></a></li>
+                            <li><a href="javascript:void(0);"><i class="icon-notebook m-r-10"></i><span>Taskboard</span> <span class="badge badge-info float-right">New</span></a></li>                            
+                            <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/locked.html"><i class="icon-lock m-r-10"></i><span>Locked</span></a></li>
+                            <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/sign-in.html"><i class="icon-power m-r-10"></i><span>Sign Out</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-1"></div>
+        </div>        
+    </div>
+</nav>
+
+<aside id="leftsidebar" class="sidebar h_menu">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="menu">
+                    <ul class="list">
+                        <li class="header">MAIN</li>
+                        <li class="active open"> <a href="http://localhost/www/Lavemcasa/novo-manager-template/dashboard.html" class="menu-toggle toggled waves-effect waves-block"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="zmdi zmdi-shopping-cart"></i><span>Pedidos</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/register-order.html" class=" waves-effect waves-block">Novo Pedido</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/order-list.html" class=" waves-effect waves-block">Listagem</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Assinaturas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="zmdi zmdi-face"></i><span>Clientes</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/client-register.html" class=" waves-effect waves-block">Novo Cliente</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/client-list.html" class=" waves-effect waves-block">Listagem</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="material-icons">widgets</i><span>Produtos</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="#" class=" waves-effect waves-block">Novo Produto</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/product-list.html" class=" waves-effect waves-block">Listagem</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Pacotes</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Plano/Assinatura</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="material-icons">store_mall_directory</i><span>Comerciante</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/merchant-register.html" class=" waves-effect waves-block">Novo Comerciante</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/merchant-list.html" class=" waves-effect waves-block">Listagem</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/events.html" class=" waves-effect waves-block">Mapa de atendimento</a></li>
+                                <li><a href="http://localhost/www/Lavemcasa/novo-manager-template/events.html" class=" waves-effect waves-block">Agentes de logística</a></li>
+                            </ul>
+                        </li>           
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="material-icons">attach_money</i><span>Financeiro</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="#" class=" waves-effect waves-block">Status de Pedidos</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Acertos de Lavanderias</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="material-icons">settings</i><span>Configurações</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="#" class=" waves-effect waves-block">Gateway de pagamento</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Idioma e strings</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Estilo de aplicações</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="javascript:void(0);" class="menu-toggle waves-effect waves-block"><i class="material-icons">trending_up</i><span>Relatórios</span></a>
+                            <ul class="ml-menu">
+                                <li><a href="#" class=" waves-effect waves-block">Novos Clientes</a></li>
+                                <li><a href="#" class=" waves-effect waves-block">Assinaturas</a></li>
+                            </ul>
+                        </li>           
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</aside>
+<!-- Right Sidebar -->
+<aside id="rightsidebar" class="right-sidebar">
+    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: calc(-60px + 100vh);"><div class="slim_scroll" style="overflow: hidden; width: auto; height: calc(-60px + 100vh);">
+        <div class="card">
+            <h6>Skins</h6>
+            <ul class="choose-skin list-unstyled">
+                <li data-theme="purple" class="active">
+                    <div class="purple"></div>
+                </li>                   
+                <li data-theme="blue">
+                    <div class="blue"></div>
+                </li>
+                <li data-theme="cyan">
+                    <div class="cyan"></div>
+                </li>
+                <li data-theme="green">
+                    <div class="green"></div>
+                </li>
+                <li data-theme="orange">
+                    <div class="orange"></div>
+                </li>
+                <li data-theme="blush">
+                    <div class="blush"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="card theme-light-dark">
+            <h6>Left Menu</h6>
+            <button class="btn btn-default btn-block btn-round btn-simple t-light">Light</button>
+            <button class="btn btn-default btn-block btn-round t-dark">Dark</button>
+        </div> 
+        <div class="card">
+            <h6>General Settings</h6>
+            <ul class="setting-list list-unstyled">
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">Report Panel Usage</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox2" checked="checked" type="checkbox">
+                        <label for="checkbox2">Email Redirect</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox3" checked="checked" type="checkbox">
+                        <label for="checkbox3">Notifications</label>
+                    </div>                        
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox4" checked="checked" type="checkbox">
+                        <label for="checkbox4">Auto Updates</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox5" checked="checked" type="checkbox">
+                        <label for="checkbox5">Offline</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox6" checked="checked" type="checkbox">
+                        <label for="checkbox6">Location Permission</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%; width: 2px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 3px; z-index: 99; right: 1px; height: 726px;"></div><div class="slimScrollRail" style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</aside>
+<!-- Right Sidebar -->
+<aside id="rightsidebar" class="right-sidebar">
+    <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: calc(-60px + 100vh);"><div class="slim_scroll" style="overflow: hidden; width: auto; height: calc(-60px + 100vh);">
+        <div class="card">
+            <h6>Skins</h6>
+            <ul class="choose-skin list-unstyled">
+                <li data-theme="purple" class="active">
+                    <div class="purple"></div>
+                </li>                   
+                <li data-theme="blue">
+                    <div class="blue"></div>
+                </li>
+                <li data-theme="cyan">
+                    <div class="cyan"></div>
+                </li>
+                <li data-theme="green">
+                    <div class="green"></div>
+                </li>
+                <li data-theme="orange">
+                    <div class="orange"></div>
+                </li>
+                <li data-theme="blush">
+                    <div class="blush"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="card theme-light-dark">
+            <h6>Left Menu</h6>
+            <button class="btn btn-default btn-block btn-round btn-simple t-light">Light</button>
+            <button class="btn btn-default btn-block btn-round t-dark">Dark</button>
+        </div> 
+        <div class="card">
+            <h6>General Settings</h6>
+            <ul class="setting-list list-unstyled">
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">Report Panel Usage</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox2" checked="checked" type="checkbox">
+                        <label for="checkbox2">Email Redirect</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox3" checked="checked" type="checkbox">
+                        <label for="checkbox3">Notifications</label>
+                    </div>                        
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox4" checked="checked" type="checkbox">
+                        <label for="checkbox4">Auto Updates</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox5" checked="checked" type="checkbox">
+                        <label for="checkbox5">Offline</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                        <input id="checkbox6" checked="checked" type="checkbox">
+                        <label for="checkbox6">Location Permission</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%; width: 2px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 3px; z-index: 99; right: 1px; height: 726px;"></div><div class="slimScrollRail" style="width: 2px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51) none repeat scroll 0% 0%; opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</aside>
+
+<section class="content">
+    <div class="container">
+        <div class="row clearfix">    
+            <div class="col-1"></div>
+            <div class="col-lg-10">
+                <div class="card">
+                    <div class="body block-header">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-8 col-sm-12">
+                                <h2>Cadastro de Cliente</h2>
+                                <ul class="breadcrumb p-l-0 p-b-0 ">
+                                    <li class="breadcrumb-item"><a href="http://localhost/www/Lavemcasa/novo-manager-template/index.html"><i class="icon-home"></i></a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Clientes</a></li>
+                                    <li class="breadcrumb-item active">Novos Clientes</li>
+                                </ul>
+                            </div>            
+                            <div class="col-lg-6 col-md-4 col-sm-12 text-right">   
+                                <button class="btn btn-primary-lav btn-round-lav btn-menu float-right hidden-xs m-l-10">Criar Pedido</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>      
+        <!-- Horizontal Layout -->
+        <div class="row clearfix">
+            <div class="col-lg-1 col-md-1 col-sm-1 "></div>
+            <div class="col-lg-10 col-md-10 col-sm-10">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Dados Pessoais</strong></h2>
+                    </div>
+                    <div class="body">
+                        <form class="form-horizontal">
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="name">Nome</label>
+                                        <input class="form-control col-lg-4" id="name" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="lastname">Sobrenome</label>
+                                        <input class="form-control col-md-auto" id="lastname" required="" type="text">
+                                    </div>
+                                </div>                         
+                             </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="documentcpf">CPF</label>
+                                        <input class="form-control col-lg-4" id="documentcpf" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="birthday">Aniversário</label>
+                                        <input class="form-control col-md-auto" id="birthday" required="" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="phonenumber">Telefone Residencial</label>
+                                        <input class="form-control col-lg-4" id="phonenumber" required="" type="text">
+                                    </div>
+                                </div>
+                                 <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="phonenumber">Telefone Residencial</label>
+                                        <input class="form-control col-lg-4" id="phonenumber" required="" type="text">
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="email">E-mail</label>
+                                        <input class="form-control col-lg-6" id="email" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="form-inline row">
+                                        <label class="col-lg-3" for="email-2">E-mail2</label>
+                                        <input class="form-control col-lg-6" id="email-2" required="" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-1 col-md-1 col-sm-1 "></div>
+            <div class="col-lg-10 col-md-10 col-sm-10">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Endereço</strong></h2>
+                    </div>
+                    <div class="body">
+                        <form class="form-horizontal">
+                            <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                                        <div class="form-inline row">
+                                            <label class="col-md-auto" for="zipcode">Cep</label>
+                                            <input class="form-control col-lg-3 offset-md-1-zipcode" id="zipcode" maxlength="9" required="" type="cel">
+                                            <img class="logocorreios" src="Manager%20Lavemcasa_arquivos/logo_correios.png">
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address">Endereço</label>
+                                        <input class="form-control col-lg-8" id="address" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address-number">Número</label>
+                                        <input class="form-control col-md-auto" id="address-number" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address-complement">Complemento</label>
+                                        <input class="form-control col-lg-4 off" id="complement" required="" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">                 
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address-city">Cidade</label>
+                                        <input class="form-control col-lg-5 offset-md-1-city" id="address-city" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address-neighborhood">Bairro</label>
+                                        <input class="form-control col-lg-5 offset-md-2-neighborhood" id="address-neighborhood" required="" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="form-inline row">
+                                        <label class="col-md-auto" for="address-state">Estado</label>
+                                        <input class="form-control col-lg-2 offset-md-2-state" id="address-state" required="" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <div class="row clearfix">
+            <div class="col-lg-1 col-md-1 col-sm-1 "></div>
+            <div class="col-lg-10 col-md-10 col-sm-10">
+                <div class="card">
+                    <div class="body block-header">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <button class="btn btn-primary-lav btn-round-lav btn-menu float-right hidden-xs m-l-10">Salvar</button>
+                            </div>            
+                            <div class="col-lg-2 col-md-2 col-sm-2 text-right "> 
+                                <button class="btn btn-primary-lav btn-round-lav btn-menu float-right hidden-xs m-l-10">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Jquery Core Js --> 
+<script src="Manager%20Lavemcasa_arquivos/libscripts.js"></script> <!-- Lib Scripts Plugin Js --> 
+<script src="Manager%20Lavemcasa_arquivos/vendorscripts.js"></script> <!-- Lib Scripts Plugin Js -->
+<script src="Manager%20Lavemcasa_arquivos/mainscripts.js"></script>
+<script type="text/javascript" src="Manager%20Lavemcasa_arquivos/jquery.js"></script>
+
+
+<script>
+    $(document).ready(function () { 
+        var $documentcpf = $("#documentcpf");
+        $documentcpf.mask('000.000.000-00');
+    });
+    $(document).ready(function () { 
+        var $documentcnpj = $("#documentcnpj");
+        $documentcnpj.mask('00.000.000/0000-00');
+    });
+    $(document).ready(function () { 
+        var $phonenumber = $("#phonenumber");
+        $phonenumber.mask('(00) 0000-0000');
+    });
+    $(document).ready(function () { 
+        var $cellnumber = $("#cellnumber");
+        $cellnumber.mask('(00) 00000-0000');
+    });
+    $(document).ready(function () { 
+        var $zipcode = $("#zipcode");
+        $zipcode.mask('00000-000');
+    });
+    $(document).ready(function () { 
+        var $credicard = $("#creditcard");
+        $creditcard.mask('0000.0000.0000.0000');
+    });
+
+    $('#name').on('input', function(e) {
+    if(/[0-9]/g.test(this.value)){
+      alert("Favor Inserir Apenas letras");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+    $('#sobrenome').on('input', function(e) {
+    if(/[0-9]/g.test(this.value)){
+      alert("Favor Inserir Apenas letras");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+    $('#documentcpf').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+      $('#documentcnpj').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+    $('#phonenumber').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+     $('#cellnumber').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+    $('#zipcode').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+    $('#credicard').on('input', function(e) {
+    if(/[a-z]/g.test(this.value)){
+      alert("Favor Inserir Apenas Números");
+      this.value= this.value.substr(0,(this.value.length-1));
+    }
+    });
+</script>
+
+<!-- Modal -->
+<div id="modal-register-client-confirmation" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-dialog modal-lg modal-large">
+        <div class="modal-content">
+            <div class="modal-container">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Cliente Cadastrado</h4><br>
+                </div>
+
+                <div class="modal-body">
+                    <div class="col-sm-12">
+                        <div class="col-sm-12">
+                            <div class="panel-client">
+                            
+                                    <div class="row-modal">
+                                        <div class="col-modal-title">
+                                            <p>Resumo do Cadastro</p>
+                                        </div>
+                                    <div class="col-modal-button">
+                                        <button type="button" class="btn btn-primary  btn-xs btn-menu" id="">Editar</button>                                        
+                                    </div>
+                                    </div>                              
+                            </div>                           
+                            <div class="panel-body">
+                                <table class="table">
+                                      <thead>
+                                        
+                                        <tr>
+                                          <td scope="row">Nome</td>
+                                          <td>Diego Alves de Campos</td>
+                                        </tr>
+                            
+                                        <tr>
+                                          <td scope="row">Telefone</td>
+                                          <td>(13)999999999</td>
+                                        </tr>
+                                
+                                        <tr>
+                                          <td scope="row">Total do pedido</td>
+                                          <td>R$ 75,50</td>
+                                        </tr>
+                                      
+                                        <tr>
+                                          <td scope="row">Tipo</td>
+                                          <td>Avulso</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td scope="row">Lavanderia</td>
+                                          <td>Acqua Lavanderia</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td scope="row">Status</td>
+                                          <td>Aguardando Coleta</td>
+                                        </tr>
+
+                                         <tr>
+                                          <td scope="row">Endereço de coleta</td>
+                                          <td>Rua Carlos Gomes 245 apartamento 52</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td scope="row">Data de Coleta</td>
+                                          <td>05/10/2018 10:00</td>
+                                        </tr>
+                                           <tr>
+                                          <td scope="row">Endereço de entrega</td>
+                                          <td>Rua Carlos Gomes 245 apartamento 52</td>
+                                        </tr>
+
+                                            <tr>
+                                          <td scope="row">Endereço de coleta</td>
+                                          <td>09/10/2018 10:00</td>
+                                        </tr>
+                                  </thead>          
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div></body></html>
