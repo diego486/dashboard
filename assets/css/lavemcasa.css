@@ -883,3 +883,11 @@ a.add-item-button{
 .row-dashboard-prices{
   margin-top: 15px;
 }
+
+.dashboard-select{
+  margin-top: 6px;
+}
+
+h4.dashboard-title{
+  font-size: 12px;
+}

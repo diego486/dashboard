@@ -12,6 +12,7 @@ Morris.Line({ //Linha
    xkey: 'week', 
    ykeys: ['meta','alcancado'],
    labels: ['Meta','Pedidos'],
+   gridTextSize:10,
    parseTime:false,
    hideHover:true,
    lineWidth:'2px',
@@ -37,7 +38,8 @@ Morris.Bar({
   xkey: 'y',
   ykeys: ['a'],
   hideHover:true,
-  labels: ['Total']
+  labels: ['Total'],
+  gridTextSize:10
 });
 
 
@@ -60,6 +62,7 @@ Morris.Area({
   xkey: 'week',
   ykeys: ['novocliente','novassinatura'],
   labels: ['Novo Cliente', 'Nova Assinatura'],
+  gridTextSize:10,
   fillOpacity: 0.6,
   behaveLikeLine:true,
   parseTime:false,
@@ -80,6 +83,7 @@ Morris.Line({ //Linha
    xkey: 'week', 
    ykeys: ['meta','alcancado'],
    labels: ['Meta','Pedidos'],
+   gridTextSize:10,
    parseTime:false,
    hideHover:true,
    lineWidth:'2px',
